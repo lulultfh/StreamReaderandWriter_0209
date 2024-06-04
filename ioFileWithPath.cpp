@@ -9,10 +9,11 @@ int main() {
 
    cout << "Masukkan Nama FIle: " ;
    cin >> NamaFile; 
+
    //membuka file dalam mode menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file
-    outfile.open("contoh file.txt");
+    outfile.open(NamaFile + ".txt", ios::out);
 
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
     
