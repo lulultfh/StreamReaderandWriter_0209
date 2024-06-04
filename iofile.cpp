@@ -30,6 +30,4 @@ int main() {
     ifstream infile;
     //menunjuk ke sebuah file
     infile.open("contohfile.txt");
-
-    
 }
